@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+
+#jogarBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#jogarBtn:hover {
+    background-color: #0056b3;
+}
+
+#moeda {
+    margin-top: 20px;
+}
+
+#resultado {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.coin-image.rotate {
+    animation: rotate 1s linear; 
+}
+
+
